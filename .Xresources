@@ -1,0 +1,105 @@
+! xscreensaver ---------------------------------------------------------------
+
+!font settings
+xscreensaver.Dialog.headingFont:        -*-fixed-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:           -*-fixed-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:          -*-fixed-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:          -*-fixed-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:         -*-fixed-medium-r-*-*-14-*-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:           -*-fixed-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:         -*-fixed-medium-r-*-*-14-*-*-*-*-*-*-*
+!general dialog box (affects main hostname, username, password text)
+xscreensaver.Dialog.foreground:         #101010
+xscreensaver.Dialog.background:         #D8D8D8
+xscreensaver.Dialog.topShadowColor:     #D8D8D8
+xscreensaver.Dialog.bottomShadowColor:  #D8D8D8
+xscreensaver.Dialog.Button.foreground:  #101010
+xscreensaver.Dialog.Button.background:  #E5E5E5
+!username/password input box and date text colour
+xscreensaver.Dialog.text.foreground:    #101010
+xscreensaver.Dialog.text.background:    #E5E5E5
+xscreensaver.Dialog.internalBorderWidth:24
+xscreensaver.Dialog.borderWidth:        20
+xscreensaver.Dialog.shadowThickness:    2
+!timeout bar (background is actually determined by Dialog.text.background)
+xscreensaver.passwd.thermometer.foreground:  #101010
+xscreensaver.passwd.thermometer.background:  #2E2E2E
+xscreensaver.passwd.thermometer.width:       8
+
+! URxvt ----------------------------------------------------------------------
+
+!font settings
+URxvt.font: -*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*,xft:Terminess\ Powerline:pixelsize=12
+!URxvt.boldFont: -*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*
+URxvt.boldFont: -*-terminusmod-bold-r-normal-*-12-*-*-*-*-*-*-*
+!colors
+! black
+URxvt.color0  : #000000
+URxvt.color8  : #222222
+! red
+URxvt.color1  : #ff2525
+URxvt.color9  : #ff4d4d
+! green
+URxvt.color2  : #93d44f
+URxvt.color10 : #c8e7a8
+! yellow
+URxvt.color3  : #eab93d
+URxvt.color11 : #ffee00
+! blue
+URxvt.color4  : #204a87
+URxvt.color12 : #3465a4
+! magenta
+URxvt.color5  : #ce5c00
+URxvt.color13 : #f57900
+! cyan
+URxvt.color6  : #89b6e2
+URxvt.color14 : #46a4ff
+! white
+URxvt.color7  : #ababab
+URxvt.color15 : #cccccc
+
+URxvt.urgentOnBell: True
+
+URxvt.scrollBar: False
+URxvt.scrollTtyOutput: False
+URxvt.scrollTtyKeypress: True
+URxvt.secondaryScroll: True
+URxvt.saveLines: 2000
+
+URxvt.cursorBlink: true
+URxvt.foreground:#ababab
+!URxvt.background:#000000
+!True Trans
+URxvt.depth: 32
+!URxvt.background: #000000
+URxvt.background: [90]#000000
+!pseudotrans
+!URxvt.shading: 10
+!URxvt.transparent:true
+
+URxvt.perl-ext-common: default,url-select,clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: google-chrome-beta
+URxvt.url-select.underline: true
+! Tabbedex features
+!URxvt.new-button:       no
+!URxvt.autohide:         yes
+!URxvt.no-tabbedex-keys: yes
+
+! Tabbedex colors
+!URxvt.tabbar-fg: 244
+!URxvt.tabbar-bg: 16
+!URxvt.tab-fg:    255
+!URxvt.tab-bg:    52
+!URxvt.title-fg:  244
+!URxvt.title-bg:  16
+
+! Tabbedex keybindings (4-1: Super + Alt)
+!URxvt.keysym.S-Down:    perl:tabbedex:new_tab
+!URxvt.keysym.S-Left:    perl:tabbedex:prev_tab
+!URxvt.keysym.S-Right:   perl:tabbedex:next_tab
+!URxvt.keysym.S-Up:      perl:tabbedex:rename_tab
+!URxvt.keysym.C-Left:  perl:tabbedex:move_tab_left
+!URxvt.keysym.C-Right: perl:tabbedex:move_tab_right

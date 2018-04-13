@@ -1,0 +1,21 @@
+# ~/.XCompose
+# Custom Compose Sequences
+
+include "/usr/share/X11/locale/en_US.UTF-8/Compose"
+
+<Multi_key> <h> <u> <g> : "\(づ｡◕‿‿◕｡\)づ"
+<Multi_key> <o> <underscore> <o> : "ಠ_ಠ"
+<Multi_key> <o> <underscore> <q> : "ಠ_ರೃ"
+<Multi_key> <k> <s> <s> : "\(づ￣ ³￣\)づ"
+<Multi_key> <h> <a> <n> <d> : "（　＾＾\）人（＾＾　）"
+<Multi_key> <k> <a> <t> : "=＾●ㅅ●＾="
+<Multi_key> <t> <b> <l> : "ヽ(#`Д´)ﾉ ︵ ┻━┻"
+<Multi_key> <n> <r> <g> : "\(っ˘ڡ˘ς\)"
+<Multi_key> <s> <r> <g> : "╮ \(. ◕ ᴗ ◕.\) ╭"
+<Multi_key> <h> <r> <t> : "し\(*･∀･\)／♡＼\(･∀･*\)ノ"
+<Multi_key> <p> <n> <t> : "(σ・・)σ"
+<Multi_key> <l> <e> <n> : "( ͡° ͜ʖ ͡°)"
+<Multi_key> <g> <g> : "ayy gg tho slapass ( ＾◡＾)っ (‿|‿)"
+<Multi_key> <b> <l> <o> : "(づ￣ ³￣)づ・゜゜・。。・゜゜❤"
+<Multi_key> <d> <o> <o> <t> : "🎺💀"
+<Multi_key> <t> <t> : "⛳⛳⛳ TAGPRO TIME ⛳⛳⛳"
